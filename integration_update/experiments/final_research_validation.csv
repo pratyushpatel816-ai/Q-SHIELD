@@ -1,0 +1,18 @@
+Experiment,Method,Metric,Mean,Std Dev
+Reproducibility,Fixed,accuracy,0.724375,0.0190372729968841
+Reproducibility,Blind Adaptive,accuracy,0.8316250000000001,0.0160647333589679
+Reproducibility,Fixed,precision,0.6865346400191357,0.0173632708619262
+Reproducibility,Blind Adaptive,precision,0.9839694556995652,0.0060356573816046
+Reproducibility,Fixed,recall,0.8264999999999999,0.0251887610693842
+Reproducibility,Blind Adaptive,recall,0.67425,0.0322520909154902
+Reproducibility,Fixed,f1_score,0.7498762592224228,0.0173830710298923
+Reproducibility,Blind Adaptive,f1_score,0.799767118269514,0.0227042276779251
+Reproducibility,Fixed,fpr,0.37775,0.0280729782043722
+Reproducibility,Blind Adaptive,fpr,0.011,0.0041675437673324
+Baseline Comparison,Fixed,F1 Score,0.87527352297593,
+Baseline Comparison,Statistical,F1 Score,0.8403361344537815,
+Baseline Comparison,Percentile,F1 Score,0.8032128514056225,
+Baseline Comparison,Blind_Adaptive,F1 Score,0.8571428571428571,
+Dual-Signal Ablation,Mismatch Only,F1 Score,0.6857142857142857,
+Dual-Signal Ablation,Bell Anomaly Only,F1 Score,0.0,
+Dual-Signal Ablation,Q-SHIELD Dual Signal,F1 Score,0.8571428571428571,

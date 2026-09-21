@@ -1,0 +1,6 @@
+variant,accuracy,precision,recall,f1_score,fpr,TP,FP,TN,FN
+Fixed,0.836667,0.76555,1.0,0.867209,0.35,160,49,91,0
+Oracle_Adaptive,1.0,1.0,1.0,1.0,0.0,160,0,140,0
+Blind_Adaptive,0.93,0.883978,1.0,0.938416,0.15,160,21,119,0
+No_Noise_Estimation,0.836667,0.76555,1.0,0.867209,0.35,160,49,91,0
+Reduced_Adaptation,0.866667,0.8,1.0,0.888889,0.285714,160,40,100,0

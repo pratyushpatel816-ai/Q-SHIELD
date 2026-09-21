@@ -1,0 +1,99 @@
+{
+  "status": "EXECUTED",
+  "scope": "end_to_end_qds",
+  "checks": [
+    {
+      "check": "quantum_stack_import",
+      "passed": true
+    }
+  ],
+  "limitations": [],
+  "baseline_result": {
+    "decision": "ACCEPT",
+    "severity": "LOW",
+    "rule_id": "QDS_VALID_SIGNATURE",
+    "reason": "Signature satisfies mismatch and fidelity thresholds.",
+    "payload_hash_valid": true,
+    "mismatch_count": 0,
+    "signature_length": 8,
+    "mismatch_rate": 0.0,
+    "fidelity": 1.0,
+    "noise_type": "none",
+    "noise_probability": 0.0,
+    "verifier_id": "CITY_SECURITY_VERIFIER",
+    "measurements": [
+      {
+        "position": 0,
+        "basis": "X",
+        "expected_bit": 1,
+        "match_rate": 1.0,
+        "mismatch_rate": 0.0,
+        "fidelity": 1.0,
+        "mismatch": false
+      },
+      {
+        "position": 1,
+        "basis": "X",
+        "expected_bit": 1,
+        "match_rate": 1.0,
+        "mismatch_rate": 0.0,
+        "fidelity": 1.0,
+        "mismatch": false
+      },
+      {
+        "position": 2,
+        "basis": "X",
+        "expected_bit": 0,
+        "match_rate": 1.0,
+        "mismatch_rate": 0.0,
+        "fidelity": 1.0,
+        "mismatch": false
+      },
+      {
+        "position": 3,
+        "basis": "Z",
+        "expected_bit": 1,
+        "match_rate": 1.0,
+        "mismatch_rate": 0.0,
+        "fidelity": 1.0,
+        "mismatch": false
+      },
+      {
+        "position": 4,
+        "basis": "Z",
+        "expected_bit": 1,
+        "match_rate": 1.0,
+        "mismatch_rate": 0.0,
+        "fidelity": 1.0,
+        "mismatch": false
+      },
+      {
+        "position": 5,
+        "basis": "X",
+        "expected_bit": 0,
+        "match_rate": 1.0,
+        "mismatch_rate": 0.0,
+        "fidelity": 1.0,
+        "mismatch": false
+      },
+      {
+        "position": 6,
+        "basis": "Z",
+        "expected_bit": 1,
+        "match_rate": 1.0,
+        "mismatch_rate": 0.0,
+        "fidelity": 1.0,
+        "mismatch": false
+      },
+      {
+        "position": 7,
+        "basis": "X",
+        "expected_bit": 1,
+        "match_rate": 1.0,
+        "mismatch_rate": 0.0,
+        "fidelity": 1.0,
+        "mismatch": false
+      }
+    ]
+  }
+}

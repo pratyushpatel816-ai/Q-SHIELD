@@ -1,0 +1,5 @@
+Approach,Teleportation_Mismatch,Bell_Anomaly,Noise_Aware,Adaptive_Detection,Attack_Detection,Statistical_Validation
+Quantum Teleportation Protocols,No,No,Limited,No,No,No
+Conventional Threshold Detection,Possible,No,Limited,Possible,Yes,Limited
+Machine Learning Quantum Anomaly Detection,Possible,Possible,Yes,Yes,Yes,Varies
+Q-SHIELD,Yes,Yes,Yes,Yes,Yes,Yes

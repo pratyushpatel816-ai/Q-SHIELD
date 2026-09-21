@@ -1,0 +1,9 @@
+Metric,Value
+Best Detection Threshold,0.25
+Best Accuracy,0.9583333333333334
+Best Precision,1.0
+Best Recall,0.75
+Best F1 Score,0.8571428571428571
+Best False Positive Rate,0.0
+Dual-Signal F1 Improvement,0.1760155957072555
+Dual-Signal Cohen's d,5.528977189216212

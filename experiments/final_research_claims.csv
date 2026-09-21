@@ -1,0 +1,8 @@
+Research Claim,Supporting Phase,Evidence,Scientific Interpretation
+Q-SHIELD improves robustness under heterogeneous quantum noise,Phase 4Q,Adaptive detection achieved lower false positive rate than fixed thresholding,Adaptive decision mechanisms reduce false alarms in noisy quantum channels
+Q-SHIELD results are reproducible across independent random seeds,Phase 5A,Independent random-seed experiments produced consistent performance,Performance improvements are not dependent on a single random simulation
+Adaptive detection maintains constant-time decision complexity,Phase 5B,Adaptive threshold computation requires only constant-time arithmetic,Q-SHIELD improves robustness without changing asymptotic decision complexity
+Q-SHIELD provides competitive performance against conventional thresholds,Phase 5C,"Compared against fixed, statistical, and percentile threshold baselines",Adaptive quantum security detection provides a different security-noise trade-off
+Detection threshold enables explicit security-sensitivity trade-off control,Phase 5F,"Threshold sweep quantified precision, recall, FPR and FNR trade-offs",Q-SHIELD can be configured according to desired security requirements
+Dual-signal detection improves performance compared with single-signal detection,Phase 5G,"Ablation study compared mismatch-only, Bell-only and dual-signal detection",Combining independent quantum signals improves detection reliability
+Dual-signal performance improvement is statistically significant,Phase 5H,Independent-seed statistical comparison produced highly significant results,Observed performance improvements are unlikely to result from random variation

@@ -1,0 +1,30 @@
+This research introduced Q-SHIELD, a dual-signal framework for quantum
+attack detection under heterogeneous quantum channel noise. The framework
+integrates teleportation mismatch information and Bell measurement
+distribution anomaly analysis to distinguish adversarial disturbances
+from legitimate channel variations.
+
+The experimental evaluation showed that the best balanced configuration,
+using a detection threshold of 0.25, achieved an accuracy of
+0.9583, an F1 score of 0.8571, and a false-positive rate
+of 0.0000. Ablation experiments demonstrated that the combined
+dual-signal architecture provides a stronger overall balance of detection
+performance and false-positive suppression than the individual signals.
+
+Independent random-seed experiments further demonstrated an F1 score
+improvement of 0.1760 compared with mismatch-only detection,
+with a large observed effect size of Cohen's d = 5.5290. These
+results provide statistically supported evidence that multi-signal fusion
+can improve quantum attack detection performance within the implemented
+simulation environment.
+
+The study also demonstrates that detection threshold selection represents
+an important security-sensitivity trade-off. While stronger thresholds
+can suppress false alarms, they may reduce attack recall. Therefore,
+threshold configuration should be selected according to operational
+security requirements.
+
+The current findings are limited to simulated quantum circuits and the
+implemented noise and attack models. Future work should validate the
+framework on real quantum hardware, larger quantum communication systems,
+and additional adversarial strategies.

@@ -1,0 +1,6 @@
+Claim,Evidence,Status
+Dual-signal fusion improves overall detection performance.,Supported by ablation experiments and independent statistical analysis.,Experimentally Supported
+Q-SHIELD suppresses false-positive decisions under evaluated noisy conditions.,Supported by threshold sensitivity and dual-signal evaluation experiments.,Supported Within Simulation Scope
+Adaptive decision mechanisms preserve constant-time asymptotic complexity.,Supported by computational complexity analysis.,Experimentally Supported
+Q-SHIELD is universally superior to all quantum security systems.,Not evaluated against all possible systems and datasets.,Do Not Claim
+Q-SHIELD is validated on real quantum hardware.,Current experiments are simulation based.,Do Not Claim

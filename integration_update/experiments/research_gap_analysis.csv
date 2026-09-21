@@ -1,0 +1,6 @@
+Gap_ID,Research_Gap,QSHIELD_Response
+G1,Single-signal quantum security monitoring may provide incomplete information about channel disturbances.,Combines teleportation mismatch and Bell measurement distribution anomaly information.
+G2,Fixed detection thresholds can be sensitive to heterogeneous quantum channel noise.,Evaluates adaptive threshold behavior and explicitly measures security-sensitivity trade-offs.
+G3,Many security approaches do not systematically compare single-signal and multi-signal architectures.,"Performs a formal ablation study comparing mismatch-only, Bell-only and dual-signal detection."
+G4,Observed improvements are not always evaluated across independent experimental repetitions.,Uses independent random-seed reproducibility experiments and statistical significance analysis.
+G5,Adaptive quantum security mechanisms may introduce computational overhead without complexity analysis.,Evaluates computational latency and theoretical asymptotic complexity.

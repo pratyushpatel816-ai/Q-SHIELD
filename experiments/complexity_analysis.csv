@@ -1,0 +1,5 @@
+component,time_complexity,space_complexity,description
+Fixed Threshold Decision,O(1),O(1),Single comparison between mismatch and fixed threshold.
+Noise Estimation,O(1),O(1),Constant-time estimation from observed mismatch.
+Adaptive Threshold Computation,O(1),O(1),Arithmetic adjustment of threshold based on estimated noise.
+N Probe Evaluation,O(N),O(1),Each probe requires independent constant-time decision.

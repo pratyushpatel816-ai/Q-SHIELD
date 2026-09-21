@@ -1,0 +1,7 @@
+scenario,attack_type,noise_type,noise_probability,mismatch_rate,bell_anomaly_score,security_score,adaptive_threshold,decision_margin,decision,attack_detected,severity
+Normal Quantum Communication,none,none,0.0,0.0,0.011056,0.003317,0.26,-0.256683,NORMAL,False,LOW
+Noisy Legitimate Channel,none,depolarizing,0.1,0.025391,0.014411,0.022097,0.270156,-0.248059,NORMAL,False,LOW
+Pauli-X Attack,pauli_x,none,0.0,1.0,0.016147,0.704844,0.32,0.384844,ATTACK,True,HIGH
+Pauli-Y Attack,pauli_y,none,0.0,1.0,0.017107,0.705132,0.32,0.385132,ATTACK,True,HIGH
+Pauli-Z Attack,pauli_z,none,0.0,1.0,0.013185,0.703955,0.32,0.383955,ATTACK,True,HIGH
+Entanglement Disruption Attack,entanglement_disruption,none,0.0,0.511719,0.007345,0.360407,0.32,0.040407,ATTACK,True,MEDIUM

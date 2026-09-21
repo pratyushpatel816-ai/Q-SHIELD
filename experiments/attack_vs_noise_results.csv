@@ -1,0 +1,9 @@
+scenario,noise_probability,attack_type,mean_mismatch,mean_fidelity,dominant_decision,detection_rate
+Clean_Channel,0.0,none,0.0,1.0,ACCEPT,0.0
+Low_Noise,0.03,none,0.049382,0.950618,ACCEPT,0.0
+Moderate_Noise,0.1,none,0.143685,0.856315,WARN,0.0
+High_Noise,0.2,none,0.239762,0.760238,REJECT,1.0
+Pauli_X_Attack,0.0,pauli_x,0.666667,0.333333,REJECT,1.0
+Pauli_Y_Attack,0.0,pauli_y,0.666667,0.333333,REJECT,1.0
+Pauli_Z_Attack,0.0,pauli_z,0.666667,0.333333,REJECT,1.0
+Entanglement_Disruption,0.0,entanglement_disruption,0.333984,0.666016,REJECT,1.0

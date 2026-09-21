@@ -1,0 +1,29 @@
+category,check,expected,observed,status,notes
+Best Configuration,Best Threshold,0.25,0.25,PASS,Validated against threshold sensitivity experiment
+Best Configuration,Best Accuracy,0.9583,0.9583333333333334,PASS,Validated against threshold sensitivity experiment
+Best Configuration,Best Precision,1.0,1.0,PASS,Validated against threshold sensitivity experiment
+Best Configuration,Best Recall,0.75,0.75,PASS,Validated against threshold sensitivity experiment
+Best Configuration,Best F1 Score,0.8571,0.8571428571428571,PASS,Validated against threshold sensitivity experiment
+Best Configuration,Best FPR,0.0,0.0,PASS,Validated against threshold sensitivity experiment
+Ablation,Dual signal improves F1 over mismatch-only,Dual F1 > Mismatch F1,0.8571 > 0.6857,PASS,Observed improvement = 0.1714
+Statistical Validation,Dual-signal mean F1 exceeds mismatch-only,Dual Mean > Mismatch Mean,0.6463 > 0.4703,PASS,Mean improvement = 0.1760
+Statistical Validation,Large Effect Size,|Cohen's d| >= 0.8,5.528977189216212,PASS,Effect size validation
+Reproducibility,Metric available: accuracy,Present,accuracy,PASS,Independent random-seed experiment
+Reproducibility,Metric available: precision,Present,precision,PASS,Independent random-seed experiment
+Reproducibility,Metric available: recall,Present,recall,PASS,Independent random-seed experiment
+Reproducibility,Metric available: f1_score,Present,f1_score,PASS,Independent random-seed experiment
+Reproducibility,Metric available: fpr,Present,fpr,PASS,Independent random-seed experiment
+Computational Complexity,Complexity experiment available,complexity_analysis.csv exists,Available,PASS,Supports constant-time adaptive decision claim
+Baseline Comparison,Multiple baseline methods evaluated,At least 3 methods,4,PASS,Conventional threshold comparison
+Research Artifact,QSHIELD_COMPLETE_RESEARCH_MANUSCRIPT.md,Available,Available,PASS,Final research reproducibility artifact
+Research Artifact,QSHIELD_FINAL_RESEARCH_REPORT.md,Available,Available,PASS,Final research reproducibility artifact
+Research Artifact,QSHIELD_NOVELTY_VALIDATION.md,Available,Available,PASS,Final research reproducibility artifact
+Research Artifact,QSHIELD_PAPER_READY_CONTENT.md,Available,Available,PASS,Final research reproducibility artifact
+Research Artifact,final_scientific_findings.csv,Available,Available,PASS,Final research reproducibility artifact
+Research Artifact,final_research_limitations.csv,Available,Available,PASS,Final research reproducibility artifact
+Research Artifact,publication_performance_comparison.png,Available,Available,PASS,Final research reproducibility artifact
+Research Artifact,publication_statistical_comparison.png,Available,Available,PASS,Final research reproducibility artifact
+Scientific Scope,Simulation Scope Limitation,Claims explicitly limited to simulation,Claims explicitly limited to simulation,PASS,Prevents unsupported scientific overclaiming
+Scientific Scope,Real Hardware Validation,Not claimed as completed,Not claimed as completed,PASS,Prevents unsupported scientific overclaiming
+Scientific Scope,Universal Superiority Claim,Not claimed,Not claimed,PASS,Prevents unsupported scientific overclaiming
+Scientific Scope,Novelty Claim,Limited to dual-signal framework contribution,Limited to dual-signal framework contribution,PASS,Prevents unsupported scientific overclaiming

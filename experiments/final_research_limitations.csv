@@ -1,0 +1,6 @@
+Limitation,Description
+Simulation Environment,Experiments were performed using simulated quantum circuits and implemented quantum noise models.
+Attack Coverage,Evaluation was limited to the implemented Pauli attacks and entanglement disruption scenarios.
+Recall Trade-Off,Strong false-positive suppression can reduce attack recall depending on the selected detection threshold.
+Hardware Validation,The proposed framework should be further evaluated on real quantum hardware with device-specific noise.
+Circuit Scale,Current experiments use relatively small quantum circuit configurations and future work should investigate scalability to larger quantum systems.

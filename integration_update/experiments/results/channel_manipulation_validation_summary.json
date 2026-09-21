@@ -1,0 +1,16 @@
+{
+  "trials_per_scenario": 100,
+  "scenarios": [
+    "valid_channel",
+    "payload_mutation",
+    "measurement_mutation",
+    "basis_mutation",
+    "sequence_mutation",
+    "channel_tag_mutation"
+  ],
+  "total_cases": 600,
+  "passed_cases": 600,
+  "failed_cases": 0,
+  "all_cases_passed": true,
+  "scope": "component-level integrity and channel-parameter mutation checks"
+}

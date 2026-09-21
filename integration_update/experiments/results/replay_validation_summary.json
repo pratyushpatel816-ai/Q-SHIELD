@@ -1,0 +1,41 @@
+{
+  "trials": 100,
+  "total_cases": 500,
+  "passed_cases": 500,
+  "failed_cases": 0,
+  "all_cases_passed": true,
+  "scenario_summary": {
+    "first_valid_payload": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0,
+      "actual_valid_count": 100
+    },
+    "reused_nonce": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0,
+      "actual_valid_count": 0
+    },
+    "sequence_rollback": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0,
+      "actual_valid_count": 0
+    },
+    "expired_payload": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0,
+      "actual_valid_count": 0
+    },
+    "valid_increasing_sequence": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0,
+      "actual_valid_count": 100
+    }
+  },
+  "scope": "ReplayRegistry isolation validation; not end-to-end QDS validation.",
+  "csv_path": "/tmp/qshield_work/qshield/experiments/results/replay_validation_results.csv"
+}

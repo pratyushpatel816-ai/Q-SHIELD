@@ -1,0 +1,9 @@
+category,metric,value
+Best Configuration,Detection Threshold,0.25
+Best Configuration,Accuracy,0.9583333333333334
+Best Configuration,Precision,1.0
+Best Configuration,Recall,0.75
+Best Configuration,F1 Score,0.8571428571428571
+Best Configuration,False Positive Rate,0.0
+Statistical Validation,F1 Improvement,0.1760155957072555
+Statistical Validation,Cohen's d,5.528977189216212

@@ -1,0 +1,6 @@
+Contribution_ID,Contribution,Technical_Contribution,Evidence,Validation_Status
+C1,Dual-Signal Quantum Attack Detection,Integrates teleportation mismatch rate and Bell measurement distribution anomaly into a unified quantum security score.,"Dual-signal ablation study comparing mismatch-only, Bell-only, and combined detection.",Experimentally Supported
+C2,Noise-Aware Detection Framework,Evaluates detection behavior under heterogeneous quantum channel noise models rather than assuming a single idealized noise condition.,Multi-noise robustness and threshold evaluation experiments.,Experimentally Supported
+C3,Security-Sensitivity Trade-Off Analysis,Explicitly evaluates how detection threshold selection affects false-positive suppression and attack recall.,Threshold sensitivity sweep across multiple detection thresholds.,Experimentally Supported
+C4,Statistical Validation of Dual-Signal Architecture,Uses independent random-seed experiments and statistical significance testing to evaluate whether dual-signal improvements are reproducible.,Independent-seed statistical comparison and effect size analysis.,Experimentally Supported
+C5,Computationally Lightweight Adaptive Detection,Adaptive threshold decisions require only constant-time arithmetic operations.,Computational latency and theoretical complexity analysis.,Experimentally Supported

@@ -1,0 +1,501 @@
+trial,scenario,expected_valid,actual_valid,expected_rule_id,actual_rule_id,reason,passed
+1,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+1,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+1,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+1,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+1,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+2,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+2,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+2,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+2,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+2,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+3,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+3,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+3,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+3,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+3,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+4,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+4,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+4,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+4,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+4,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+5,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+5,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+5,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+5,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+5,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+6,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+6,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+6,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+6,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+6,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+7,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+7,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+7,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+7,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+7,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+8,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+8,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+8,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+8,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+8,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+9,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+9,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+9,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+9,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+9,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+10,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+10,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+10,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+10,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+10,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+11,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+11,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+11,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+11,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+11,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+12,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+12,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+12,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+12,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+12,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+13,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+13,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+13,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+13,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+13,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+14,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+14,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+14,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+14,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+14,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+15,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+15,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+15,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+15,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+15,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+16,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+16,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+16,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+16,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+16,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+17,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+17,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+17,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+17,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+17,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+18,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+18,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+18,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+18,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+18,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+19,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+19,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+19,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+19,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+19,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+20,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+20,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+20,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+20,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+20,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+21,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+21,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+21,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+21,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+21,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+22,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+22,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+22,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+22,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+22,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+23,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+23,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+23,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+23,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+23,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+24,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+24,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+24,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+24,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+24,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+25,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+25,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+25,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+25,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+25,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+26,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+26,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+26,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+26,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+26,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+27,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+27,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+27,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+27,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+27,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+28,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+28,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+28,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+28,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+28,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+29,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+29,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+29,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+29,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+29,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+30,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+30,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+30,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+30,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+30,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+31,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+31,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+31,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+31,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+31,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+32,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+32,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+32,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+32,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+32,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+33,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+33,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+33,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+33,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+33,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+34,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+34,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+34,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+34,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+34,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+35,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+35,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+35,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+35,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+35,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+36,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+36,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+36,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+36,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+36,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+37,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+37,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+37,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+37,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+37,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+38,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+38,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+38,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+38,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+38,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+39,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+39,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+39,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+39,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+39,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+40,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+40,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+40,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+40,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+40,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+41,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+41,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+41,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+41,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+41,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+42,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+42,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+42,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+42,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+42,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+43,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+43,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+43,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+43,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+43,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+44,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+44,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+44,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+44,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+44,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+45,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+45,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+45,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+45,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+45,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+46,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+46,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+46,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+46,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+46,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+47,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+47,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+47,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+47,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+47,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+48,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+48,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+48,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+48,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+48,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+49,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+49,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+49,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+49,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+49,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+50,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+50,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+50,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+50,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+50,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+51,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+51,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+51,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+51,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+51,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+52,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+52,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+52,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+52,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+52,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+53,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+53,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+53,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+53,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+53,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+54,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+54,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+54,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+54,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+54,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+55,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+55,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+55,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+55,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+55,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+56,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+56,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+56,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+56,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+56,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+57,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+57,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+57,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+57,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+57,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+58,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+58,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+58,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+58,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+58,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+59,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+59,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+59,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+59,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+59,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+60,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+60,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+60,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+60,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+60,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+61,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+61,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+61,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+61,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+61,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+62,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+62,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+62,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+62,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+62,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+63,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+63,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+63,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+63,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+63,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+64,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+64,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+64,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+64,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+64,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+65,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+65,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+65,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+65,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+65,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+66,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+66,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+66,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+66,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+66,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+67,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+67,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+67,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+67,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+67,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+68,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+68,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+68,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+68,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+68,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+69,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+69,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+69,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+69,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+69,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+70,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+70,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+70,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+70,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+70,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+71,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+71,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+71,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+71,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+71,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+72,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+72,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+72,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+72,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+72,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+73,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+73,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+73,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+73,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+73,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+74,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+74,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+74,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+74,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+74,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+75,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+75,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+75,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+75,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+75,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+76,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+76,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+76,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+76,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+76,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+77,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+77,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+77,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+77,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+77,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+78,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+78,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+78,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+78,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+78,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+79,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+79,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+79,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+79,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+79,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+80,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+80,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+80,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+80,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+80,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+81,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+81,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+81,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+81,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+81,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+82,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+82,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+82,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+82,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+82,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+83,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+83,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+83,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+83,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+83,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+84,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+84,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+84,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+84,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+84,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+85,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+85,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+85,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+85,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+85,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+86,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+86,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+86,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+86,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+86,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+87,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+87,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+87,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+87,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+87,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+88,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+88,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+88,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+88,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+88,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+89,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+89,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+89,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+89,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+89,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+90,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+90,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+90,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+90,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+90,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+91,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+91,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+91,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+91,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+91,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+92,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+92,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+92,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+92,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+92,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+93,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+93,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+93,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+93,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+93,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+94,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+94,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+94,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+94,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+94,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+95,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+95,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+95,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+95,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+95,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+96,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+96,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+96,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+96,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+96,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+97,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+97,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+97,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+97,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+97,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+98,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+98,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+98,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+98,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+98,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+99,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+99,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+99,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+99,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+99,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+100,first_valid_payload,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True
+100,reused_nonce,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Nonce has already been consumed.,True
+100,sequence_rollback,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Sequence number is not greater than the previously accepted sequence.,True
+100,expired_payload,False,False,REPLAY_ATTACK,REPLAY_ATTACK,Payload has expired.,True
+100,valid_increasing_sequence,True,True,REPLAY_CHECK_PASSED,REPLAY_CHECK_PASSED,"Nonce, sequence number and expiry are valid.",True

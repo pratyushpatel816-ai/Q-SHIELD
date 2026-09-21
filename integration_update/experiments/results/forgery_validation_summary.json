@@ -1,0 +1,40 @@
+{
+  "trials": 100,
+  "total_cases": 600,
+  "passed_cases": 600,
+  "failed_cases": 0,
+  "all_cases_passed": true,
+  "scenario_summary": {
+    "valid_payload_signature": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0
+    },
+    "command_forgery": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0
+    },
+    "firmware_hash_forgery": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0
+    },
+    "receiver_forgery": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0
+    },
+    "signature_payload_hash_forgery": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0
+    },
+    "signature_position_forgery": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0
+    }
+  },
+  "scope": "Payload/signature binding and structural mutation checks; not end-to-end QDS validation."
+}

@@ -1,0 +1,10 @@
+Experiment,Method,Accuracy,Precision,Recall,F1 Score,FPR
+Cross-Trial Validation,Fixed Threshold,0.9375,0.9,1.0,0.9444,0.125
+Expanded Robustness,Fixed Threshold,0.8913,0.8276,1.0,0.9057,0.2273
+Adaptive Threshold,Adaptive,1.0,1.0,1.0,1.0,0.0
+Blind Adaptive Validation,Blind Adaptive,1.0,1.0,1.0,1.0,0.0
+Adaptive Ablation,Blind Adaptive,0.93,0.884,1.0,0.9384,0.15
+Paired Monte Carlo,Fixed Threshold,0.7973,0.6614,1.0,0.7904,0.3186
+Paired Monte Carlo,Blind Adaptive,1.0,1.0,1.0,1.0,0.0
+Multi-Noise Robustness,Fixed Threshold,0.7311,0.6681,0.785,0.7218,0.312
+Multi-Noise Robustness,Blind Adaptive,0.8467,0.9888,0.6625,0.7934,0.006

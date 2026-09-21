@@ -1,0 +1,6 @@
+Contribution_ID,Contribution,Evidence,Strength
+C1,Dual-Signal Quantum Attack Detection,Dual-signal architecture combines teleportation mismatch with Bell measurement anomaly analysis.,Primary Contribution
+C2,Noise-Aware Security Evaluation,Evaluated under multiple heterogeneous quantum noise models.,Experimental Contribution
+C3,Security-Sensitivity Trade-Off Analysis,"Threshold sweep quantifies the relationship between precision, recall, FPR and FNR.",Analytical Contribution
+C4,Dual-Signal Ablation and Statistical Validation,Independent random-seed experiments and statistical comparison support observed performance differences.,Validation Contribution
+C5,Computationally Lightweight Detection,Adaptive decision operations maintain O(1) computational complexity.,Efficiency Contribution

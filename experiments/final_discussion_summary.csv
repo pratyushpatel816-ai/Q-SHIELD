@@ -1,0 +1,7 @@
+Metric,Value
+Best Detection Threshold,0.25
+Best Accuracy,0.9583
+Best Precision,1.0
+Best Recall,0.75
+Best F1 Score,0.8571
+Best False Positive Rate,0.0

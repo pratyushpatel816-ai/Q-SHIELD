@@ -1,0 +1,48 @@
+{
+  "trials": 100,
+  "total_cases": 400,
+  "passed_cases": 400,
+  "failed_cases": 0,
+  "all_cases_passed": true,
+  "scenario_summary": {
+    "legitimate_registered_sender": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0,
+      "expected_accepts": 100,
+      "actual_accepts": 100,
+      "expected_rejects": 0,
+      "actual_rejects": 0
+    },
+    "unknown_sender": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0,
+      "expected_accepts": 0,
+      "actual_accepts": 0,
+      "expected_rejects": 100,
+      "actual_rejects": 100
+    },
+    "revoked_sender": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0,
+      "expected_accepts": 0,
+      "actual_accepts": 0,
+      "expected_rejects": 100,
+      "actual_rejects": 100
+    },
+    "sender_field_tampering": {
+      "trials": 100,
+      "passed": 100,
+      "failed": 0,
+      "expected_accepts": 0,
+      "actual_accepts": 0,
+      "expected_rejects": 100,
+      "actual_rejects": 100
+    }
+  },
+  "scope": "IdentityRegistry and SHA-256 payload-binding component validation; not end-to-end QDS validation.",
+  "qiskit_end_to_end": "not_run_in_harness_environment",
+  "csv_path": "/mnt/data/qshield_imp/qshield/experiments/results/impersonation_validation_results.csv"
+}

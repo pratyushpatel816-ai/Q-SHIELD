@@ -1,0 +1,11 @@
+metric,value
+fixed_mean_performance,0.8366666666666667
+blind_adaptive_mean_performance,0.9299999999999999
+mean_improvement,0.09333333333333327
+wilcoxon_statistic,3.0
+p_value,0.08985624743949988
+cohens_d,0.35379119008373344
+effect_magnitude,SMALL
+improvement_ci_lower,-0.04017248842903193
+improvement_ci_upper,0.22683915509569857
+statistical_conclusion,NOT STATISTICALLY SIGNIFICANT

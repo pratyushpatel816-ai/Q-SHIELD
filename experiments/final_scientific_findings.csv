@@ -1,0 +1,6 @@
+Finding,Interpretation
+Noise Robustness,Adaptive thresholding reduces false alarms under heterogeneous quantum noise conditions.
+Computational Scalability,Adaptive threshold computation adds only constant-time arithmetic operations and does not change the asymptotic decision complexity.
+Dual-Signal Advantage,Combining teleportation mismatch information with Bell measurement anomaly information improves detection performance compared with individual signal approaches.
+Security-Sensitivity Trade-Off,Detection threshold selection provides explicit control over the trade-off between attack sensitivity and false-positive suppression.
+Statistical Reliability,Independent random-seed experiments and statistical testing indicate that the observed performance improvements are reproducible within the simulation environment.

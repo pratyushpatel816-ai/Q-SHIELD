@@ -1,0 +1,6 @@
+Claim,Strength,Justification
+Q-SHIELD proposes a dual-signal detection architecture.,Strong,The architecture explicitly combines teleportation mismatch and Bell distribution anomaly signals and evaluates their individual and combined effects.
+Dual-signal fusion improves detection performance.,Strong,Supported by ablation experiments and independent statistical significance analysis.
+Q-SHIELD reduces false positives in noisy channels.,Supported within simulation scope,Experiments demonstrate improved false-positive suppression under the implemented noise models.
+Q-SHIELD is universally superior to all quantum attack detection systems.,Not Supported,"The research evaluates specific baselines, noise models, and attack scenarios only."
+Q-SHIELD is validated for real quantum hardware.,Not Supported,Current evaluation is simulation-based and requires hardware validation.
